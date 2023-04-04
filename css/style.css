@@ -172,6 +172,54 @@ main{
     text-align: center;
     margin: 0 auto;
 }
-.rodape{
-    
+
+footer{
+    display: flex;
+    box-shadow: 0 -3px #888888;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .infos{
+    display: flex;
+    margin: auto;
+}
+
+footer . .infos ul{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul.flex {
+    display: flex;
+}
+
+footer ul.flex li {
+    margin-left: 20px;
+}
+
+footer ul li {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer .infos {
+    height: fit-content;
+    width: 100%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .infos ul {
+    margin: 0;
+    margin-left: 60px;
 }
